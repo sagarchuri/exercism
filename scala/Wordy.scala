@@ -22,7 +22,7 @@ case class WordProblem(str:Any) {
       case "minus" => a - b
       case "multiplied by" => a * b
       case "divided by" => a / b
-      case "raised to the" =>   Math.pow(a, b).toInt
+      case "raised to the" =>  Math.pow(a, b).toInt
    }
 
 }
